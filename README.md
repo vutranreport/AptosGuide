@@ -3,9 +3,10 @@ Các bài viết, hướng dẫn liên quan đến blockchain Aptos
 
 Đây là phần hướng dẫn chạy fullnode cho Aptos + tạo định danh riêng cho node với chỉ 1 dòng code (dùng cho docker)
 
-Chuẩn bị:
+# Chuẩn bị:
 - Có thể thuê VPS của Contabo, Digital Ocean, Vultr. Đa phần mình thấy VPS ở Contabo dùng ok, giá hợp lý.
 
+#Bắt đầu
 If there was a new release update you can use same one-line script to renew your node. Your private key will stay the same
 
 curl -s https://raw.githubusercontent.com/hungcc/aptos-node-guide/main/aptos-docker > aptos-docker.sh && chmod +x aptos-docker.sh && ./aptos-docker.sh
